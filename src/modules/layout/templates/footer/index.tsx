@@ -18,8 +18,10 @@ export default async function Footer() {
               href="/"
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
-              Medusa Store
+              chirag store
             </LocalizedClientLink>
+            <img src ="/images/120912045923-monkey1.jpg" style={{"width":"100px","height":"100px"}}/>
+            
           </div>
           <div className="text-small-regular gap-10 md:gap-x-16 grid grid-cols-2 sm:grid-cols-3">
             {product_categories && product_categories?.length > 0 && (
@@ -142,7 +144,7 @@ export default async function Footer() {
         </div>
         <div className="flex w-full mb-16 justify-between text-ui-fg-muted">
           <Text className="txt-compact-small">
-            © {new Date().getFullYear()} Medusa Store. All rights reserved.
+            © {new Date().getFullYear()} chirag Store. All rights reserved.
           </Text>
           <MedusaCTA />
         </div>
